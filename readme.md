@@ -2,3 +2,4 @@
 
 ###Geliştiriciler###
 Hüseyin Akyol
+Büşra Usta
