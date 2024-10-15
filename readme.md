@@ -3,3 +3,4 @@
 ###Geliştiriciler###
 Hüseyin Akyol
 Büşra Usta
+Ayşenur Fidan
