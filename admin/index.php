@@ -4,6 +4,9 @@ This is a starter template page. Use this page to start your new project from
 scratch. This page gets rid of all links and provides the needed markup only.
 -->
 <html lang="en">
+  <?php $page = isset($_GET['p']) ? htmlspecialchars($_GET['p']): 'dashboard';
+   ?>
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,7 +25,15 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <?php 
 include_once "navbar.php";
 include_once "sidebar.php";
-include_once "content.php";
+
+$content_page="pages/{$page}.php";
+if(file_exists($content_page)){
+  include_once $content_page;
+}else include_once "pages/404.php";
+
+
+
+
 include_once "control-sidebar.php";
 include_once "footer.php";
 ?>

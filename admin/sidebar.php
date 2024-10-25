@@ -38,7 +38,7 @@
             <a href="#" class="nav-link active">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
-                KURUMSAL
+                KULLANICI İŞLEMLERİ
                 <i class="right fas fa-angle-left"></i>
               </p>
             </a>
@@ -46,13 +46,13 @@
               <li class="nav-item">
                 <a href="#" class="nav-link active">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>İLETİŞİM</p>
+                  <p>Kullanıcı Listesi</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="#" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Referanslar</p>
+                  <p>İletşim</p>
                 </a>
               </li>
             </ul>
