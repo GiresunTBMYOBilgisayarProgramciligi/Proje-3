@@ -280,13 +280,18 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #353434;
+  background-color: #ffb300;
   border-radius: 100%;
+  overflow: hidden; /* Çerçeve dışına taşan kısımları gizler */
 }
 
 .do_section .do_container .box .img-box img {
-  width: 45px;
-}
+  width: auto; /* Genişliği orijinal oranında bırak */
+  height: auto; /* Yüksekliği orijinal oranında bırak */
+  max-width: 80%; /* Çerçevenin taşmasını önle */
+  max-height: 80%; /* Çerçevenin taşmasını önle */
+}s
+
 
 .do_section .do_container .box .detail-box {
   margin-top: 35px;
@@ -316,6 +321,7 @@ a:focus {
 
 .do_section .do_container .arrow-middle::before {
   background-image: url(../images/arrow-middle.png);
+  
 }
 
 .do_section .do_container .arrow-end::before {
@@ -653,6 +659,7 @@ a:focus {
 .info_section .info_contact > div img {
   height: auto;
   margin-right: 12px;
+  
 }
 
 .info_section .info_form form input {
